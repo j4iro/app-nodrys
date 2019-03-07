@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="edittext_textsize">20sp</dimen>
+    <dimen name="button_textsize">20sp</dimen>
+    <dimen name="button_login_width">200dp</dimen>
+    <dimen name="textview_login_textsize">16sp</dimen>
+    <dimen name="marginTop_editText">10dp</dimen>
+    <dimen name="marginTop_botonLogin">20dp</dimen>
+    <dimen name="paddingLinearLayoutCrearCuenta">16dp</dimen>
+
+
+</resources>

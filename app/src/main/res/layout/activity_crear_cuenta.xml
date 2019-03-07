@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.CrearCuentaActivity">
+
+    <include layout="@layout/action_bar_toolbar">
+    </include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/paddingLinearLayoutCrearCuenta"
+            android:orientation="vertical"
+            >
+
+            <EditText
+                android:hint="Nombres"
+                style="@style/EditText_Login_Registro"
+                android:inputType="text"
+                />
+
+            <EditText
+                android:hint="Apellidos"
+                style="@style/EditText_Login_Registro"
+                android:inputType="text"
+                />
+
+            <EditText
+                android:hint="Correo"
+                style="@style/EditText_Login_Registro"
+                android:inputType="textEmailAddress"
+                />
+
+            <EditText
+                android:hint="Contraseña"
+                style="@style/EditText_Login_Registro"
+                android:inputType="textPassword"
+                />
+
+            <EditText
+                android:hint="Repita la contraseña"
+                style="@style/EditText_Login_Registro"
+                android:inputType="textPassword"
+                />
+
+            <Button
+                android:text="Crear cuenta"
+                style="@style/boton_Login_Registro" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

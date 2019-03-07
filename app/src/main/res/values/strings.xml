@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Nodrys</string>
+    <string name="title_activity_referencia">ReferenciaActivity</string>
+    <string name="toolbar_tittle_createaccount">Crear Cuenta</string>
+</resources>
